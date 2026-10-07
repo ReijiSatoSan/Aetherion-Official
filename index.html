@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aetherion Official — Minecraft Bedrock Edition projects, addons, texture packs, maps and skins.">
+  <title>Aetherion Official | Minecraft Bedrock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Aetherion Official home">
+      <img src="assets/logo.png" alt="Aether Clan logo">
+      <span>
+        <strong>Aetherion</strong>
+        <small>OFFICIAL</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="nav">
+      <a class="active" href="index.html">Home</a>
+      <a href="category.html?type=addons">Addons</a>
+      <a href="category.html?type=textures">Texture Packs</a>
+      <a href="category.html?type=maps">Maps</a>
+      <a href="category.html?type=skins">Skins</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">MINECRAFT BEDROCK EDITION</p>
+        <h1>Welcome to <span>Aetherion Official</span></h1>
+        <p class="hero-text">
+          The official home for Aetherion's Minecraft Bedrock projects.
+          Discover addons, texture packs, maps and skins — all in one place.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#categories">Explore Projects <span>→</span></a>
+          <a class="button secondary" href="category.html?type=addons">Browse Addons</a>
+        </div>
+      </div>
+
+      <div class="hero-mark">
+        <div class="mark-ring"></div>
+        <img src="assets/logo.png" alt="Aether Clan emblem">
+      </div>
+    </section>
+
+    <section id="categories" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">EXPLORE</p>
+          <h2>Project Categories</h2>
+        </div>
+        <p>More projects will appear here as you publish them.</p>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card fire" href="category.html?type=addons">
+          <div class="category-icon">✦</div>
+          <div>
+            <h3>Addons</h3>
+            <p>Gameplay changes, creatures, items and more.</p>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+
+        <a class="category-card ice" href="category.html?type=textures">
+          <div class="category-icon">◇</div>
+          <div>
+            <h3>Texture Packs</h3>
+            <p>Textures, UI packs and visual upgrades.</p>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+
+        <a class="category-card map" href="category.html?type=maps">
+          <div class="category-icon">⌂</div>
+          <div>
+            <h3>Maps</h3>
+            <p>Adventures, survival worlds and custom builds.</p>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+
+        <a class="category-card skin" href="category.html?type=skins">
+          <div class="category-icon">◈</div>
+          <div>
+            <h3>Skins</h3>
+            <p>Original character skins and skin packs.</p>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="empty-feature">
+      <div class="empty-symbol">✧</div>
+      <p class="eyebrow">COMING SOON</p>
+      <h2>Your projects will live here.</h2>
+      <p>
+        This website starts intentionally empty. Add your own projects whenever
+        you're ready and keep everything under the Aetherion Official name.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>Aetherion Official</strong>
+      <span>Independent Minecraft Bedrock project hub.</span>
+    </div>
+    <span>© <span id="year"></span> Aetherion Official</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
